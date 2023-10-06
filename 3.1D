@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\sandh\OneDrive\Desktop\3.1d\style.css">
+    <link rel="icon" href="C:\Users\sandh\OneDrive\Desktop\3.1d\favicon.ico" type="image/x-icon">
+    <title>TaskTrackr</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to TaskTrackr</h1>
+        <p>Manage your tasks efficiently and Easily.</p>
+    </header>
+
+    <section class="profile">
+        <img src="C:\Users\sandh\OneDrive\Desktop\3.1d\unnamed.png" alt="Profile Picture">
+    </section>
+
+    <main>
+        <div id="app">
+            <h2>Task List</h2>
+            <ul>
+                <li v-for="task in tasks" :key="task.id">{{INTRODUCTION TO WEB APPS}}</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 TaskTrackr</p>
+        <p>Trimester 2</p>
+    </footer>
+    <script src="C:\Users\sandh\OneDrive\Desktop\3.1d\app.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
